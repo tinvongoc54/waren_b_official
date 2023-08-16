@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "20397453026",
+    "project_id": "flutter-base-flaver",
+    "storage_bucket": "flutter-base-flaver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20397453026:android:e1f971aed519ac1fd478bb",
+        "android_client_info": {
+          "package_name": "com.example.base_flaver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20397453026-tefa6ds4cgpt7lq31rb8nncrr0da172e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG9pC6OnXSG1H6sNFNpiAHAnsHjV7R-vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20397453026-tefa6ds4cgpt7lq31rb8nncrr0da172e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "20397453026-5cm6u16npcmvcdnnjl60fdlt2a7tiktm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.baseFlaver.prod"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20397453026:android:d92583d71b0a9f6dd478bb",
+        "android_client_info": {
+          "package_name": "com.example.base_flaver.prod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20397453026-tefa6ds4cgpt7lq31rb8nncrr0da172e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG9pC6OnXSG1H6sNFNpiAHAnsHjV7R-vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20397453026-tefa6ds4cgpt7lq31rb8nncrr0da172e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "20397453026-5cm6u16npcmvcdnnjl60fdlt2a7tiktm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.baseFlaver.prod"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
