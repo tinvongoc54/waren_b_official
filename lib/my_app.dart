@@ -1,4 +1,4 @@
-import 'package:base_flaver/app_config.dart';
+import 'package:warenb/app_config.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {

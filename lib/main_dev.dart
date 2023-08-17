@@ -1,5 +1,5 @@
-import 'package:base_flaver/app_config.dart';
-import 'package:base_flaver/firebase_options.dart';
+import 'package:warenb/app_config.dart';
+import 'package:warenb/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 

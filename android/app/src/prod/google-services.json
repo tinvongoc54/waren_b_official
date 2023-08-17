@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:20397453026:android:e1f971aed519ac1fd478bb",
         "android_client_info": {
-          "package_name": "com.example.base_flaver"
+          "package_name": "com.warenb"
         }
       },
       "oauth_client": [
@@ -45,7 +45,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:20397453026:android:d92583d71b0a9f6dd478bb",
         "android_client_info": {
-          "package_name": "com.example.base_flaver.prod"
+          "package_name": "com.warenb.prod"
         }
       },
       "oauth_client": [

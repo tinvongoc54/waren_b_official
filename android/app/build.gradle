@@ -47,7 +47,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.example.base_flaver"
+        applicationId "com.warenb"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
         minSdkVersion flutter.minSdkVersion
@@ -70,12 +70,12 @@ android {
         dev {
             dimension "default"
             resValue "string", "app_name", "free flavor example"
-            applicationId "com.example.base_flaver.dev"
+            applicationId "com.warenb.dev"
         }
         prod {
             dimension "default"
             resValue "string", "app_name", "free flavor example"
-            applicationId "com.example.base_flaver.prod"
+            applicationId "com.warenb.prod"
         }
     }
 }

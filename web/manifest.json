@@ -1,6 +1,6 @@
 {
-    "name": "base_flaver",
-    "short_name": "base_flaver",
+    "name": "warenb",
+    "short_name": "warenb",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
