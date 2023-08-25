@@ -28,13 +28,7 @@ class RowCategory extends StatelessWidget {
             scrollDirection: Axis.horizontal,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.start,
-              children: [
-                _renderItems(items[0]),
-                _renderItems(items[1]),
-                _renderItems(items[2]),
-                _renderItems(items[3]),
-                _renderItems(items[4])
-              ],
+              children: items.map((e) => _renderItems(e)).toList(),
             ),
           )
         ],
@@ -42,7 +36,7 @@ class RowCategory extends StatelessWidget {
     );
   }
 
-  _renderItems(Product product) {
+  Widget _renderItems(Product product) {
     return Container(
       margin: EdgeInsets.only(right: 14),
       width: 130,

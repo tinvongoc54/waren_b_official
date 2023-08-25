@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:warenb/models/product.dart';
+import 'package:warenb/resources/widgets/bottom_navigation_bar.dart';
 import 'package:warenb/resources/widgets/row_category.dart';
 
 import '../../resources/widgets/app_bar_navigation_top.dart';
@@ -17,43 +18,40 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Color(0XFFF7F7F7),
-      body: SafeArea(
-        child: SingleChildScrollView(
-          scrollDirection: Axis.vertical,
-          child: Center(
-            child: Column(children: [
-              const AppBarNavigationTop(
-                title: 'W A R E N B',
-                isEnableBack: false,
-                onBack: null,
-                leftButton: null,
-                rightButton: null,
-              ),
-              _renderSearch(),
-              const SizedBox(
-                width: 16,
-              ),
-              _renderCardCollection(),
-              const SizedBox(
-                width: 16,
-              ),
-              RowCategory(title: 'Best Seller', items: _getItems()),
-              const SizedBox(
-                width: 16,
-              ),
-              RowCategory(title: 'Shirts', items: _getItems()),
-              const SizedBox(
-                width: 16,
-              ),
-              RowCategory(title: 'Bottoms', items: _getItems()),
-              const SizedBox(
-                width: 16,
-              ),
-              RowCategory(title: 'Accessories', items: _getItems()),
-            ]),
-          ),
+    return SafeArea(
+      child: SingleChildScrollView(
+        scrollDirection: Axis.vertical,
+        child: Center(
+          child: Column(children: [
+            const AppBarNavigationTop(
+              title: 'W A R E N B',
+              isEnableBack: false,
+              onBack: null,
+              leftButton: null,
+              rightButton: null,
+            ),
+            _renderSearch(),
+            const SizedBox(
+              width: 16,
+            ),
+            _renderCardCollection(),
+            const SizedBox(
+              width: 16,
+            ),
+            RowCategory(title: 'Best Seller', items: _getItems()),
+            const SizedBox(
+              width: 16,
+            ),
+            RowCategory(title: 'Shirts', items: _getItems()),
+            const SizedBox(
+              width: 16,
+            ),
+            RowCategory(title: 'Bottoms', items: _getItems()),
+            const SizedBox(
+              width: 16,
+            ),
+            RowCategory(title: 'Accessories', items: _getItems()),
+          ]),
         ),
       ),
     );
